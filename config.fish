@@ -11,6 +11,9 @@ source (pyenv init - | psub)
 # snap
 set -x PATH /snap/bin $PATH
 
+# go
+set -x PATH $HOME/go/bin $PATH
+
 ##########
 # alias
 alias ls "ls -aG"
