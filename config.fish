@@ -8,12 +8,6 @@ set -x PATH "/usr/local/opt/ruby/bin" $PATH
 set -x PATH $HOME/.pyenv/bin $PATH
 source (pyenv init - | psub)
 
-# Flutter
-set -x PATH $HOME/dev/flutter_dev/flutter/bin $PATH
-
-# Node.js
-set -x PATH $HOME/.nodebrew/current/bin $PATH
-
 # snap
 set -x PATH /snap/bin $PATH
 
